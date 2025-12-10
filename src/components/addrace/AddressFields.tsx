@@ -6,10 +6,10 @@ import type { Province, City, Municipality, Barangay } from '@/types/psgc';
 
 interface AddressFieldsProps {
   formData: {
-    province: string;
+    province: string;dadasdasdasd
     provinceCode: string;
     cityMunicipality: string;
-    cityMunicipalityCode: string;
+    cityMunicipalityCode: string;asdasd
     baranggay: string;
   };
   onProvinceChange: (code: string, name: string) => void;
@@ -17,7 +17,7 @@ interface AddressFieldsProps {
   onBarangayChange: (name: string) => void;
 }
 
-export default function AddressFields({ 
+export default function AddressFields({ asd
   formData, 
   onProvinceChange, 
   onCityChange, 
